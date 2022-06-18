@@ -7,7 +7,9 @@ main{
 	background-color: lightblue;
 	position: fixed;
 	top: 0;
-	width: 100%
+	width: 100%;
+	z-index: 100;
+
 }
 .logo{
 	display: inline-block;
@@ -38,6 +40,7 @@ main{
 /* sectio 1*/
 .pos-1{
 	position: relative;
+	z-index: 10;
 }
 .pos-2{
 	position: absolute;
