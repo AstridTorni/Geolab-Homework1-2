@@ -1,0 +1,213 @@
+main{
+	margin: 66px 40px 10px 150px;
+}
+/* header*/
+.header{
+	height: 56px;
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	width: 100%
+}
+.logo{
+	display: inline-block;
+	height: 46px;
+	margin: 5px 5px 5px 20px;
+
+}
+.a-logo{
+	text-decoration: none;
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+.nav-header{
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: top;
+}
+.nav-foto{
+	display: inline-block;
+	height: 45px;
+}
+
+/* sectio 1*/
+.pos-1{
+	position: relative;
+}
+.pos-2{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.title{
+	text-transform: uppercase;
+}
+.section-1{
+	display: block;
+	background-color: yellow;
+
+}
+.div-sect-1 {
+	background-color: lightgreen;
+	display: inline-block;
+	width: 30%;
+}
+.div-image{
+	width: 100%;
+	min-width: 100px;
+}
+.image-title{
+	color: white;
+
+}
+.div-time{
+	background-color: lightblue;
+	display: block;
+}
+.image-mini{
+	width: 25px;
+}
+.mini-text{
+	display: inline-block;
+
+}
+.div-middle{
+	margin-right: 4%;
+	margin-left: 4%;
+}
+/* sectio 2*/
+.section-2{
+	display: block;
+}
+.div-left{
+	background-color: lightgreen;
+	display: inline-block;
+	width: 64%;
+
+}
+.div-right{
+	background-color: lightblue;
+	display: inline-block;
+	width: 30%;
+	margin-left: 4%;
+}
+.image-left{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.image-right{
+	width: 100%;
+	margin-bottom: 36%;
+}
+
+
+/* footer*/
+.footer{
+	background-color: lightgrey;
+	display: block;
+}
+.footer-logo{
+	display: inline-block;
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-right: 50px;
+	width: 100px;
+}
+.footer-image{
+	background-color: cyan;
+	display: inline-block;
+	margin-right: 15px;
+	width: 29px;
+}
+.footer-ul{
+	background-color: lightgreen;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.footer-text{
+	background-color: magenta;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 30px;
+	margin-right: 40px;
+}
+.footer-icons{
+	background-color: lightblue;
+	display: inline-block;	
+	float: right;
+	margin-right: 150px;
+	margin-top: 20px;
+
+}
+.footer-li{
+	list-style: none;
+}
+footer a{
+	text-decoration: none;
+	/* Animation */
+}
+.animacia{
+	background-color: lightgrey;
+}
+.anime-image{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.mermaid{
+	display: block;
+	width: 250px;
+	position: absolute;
+	top: 70%;
+	right: 10%;
+	animation: chatanimation3 8s infinite;
+}
+
+.fish1{
+	width: 110px;
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	animation: chatanimation 8s infinite;
+}
+
+.fish2{
+	width: 70px;
+	position: absolute;
+	top: 60%;
+	right: 5%;
+	animation: chatanimation2 8s infinite;
+}
+
+.fish3{
+	width: 100px;
+	position: absolute;
+	top: 72%;
+	right: 9%;
+	animation: chatanimation2 8s infinite;
+}
+
+@keyframes chatanimation {
+	0% {left: 10%; transform: rotate(0deg);}
+	100% {left: 90%; transform: rotate(0deg);}	
+}
+
+@keyframes chatanimation2 {
+	0% {right: 5%; transform: rotate(0deg);}
+	100% {right: 90%; transform: rotate(0deg);}	
+}
+@keyframes chatanimation3{
+    0% {right: 10%; transform: rotate(60deg);}
+    20% {right: 25%; transform: rotate(120deg);}	
+    40% {right: 40%; transform: rotate(180deg);}	
+    60% {right: 55%; transform: rotate(240deg);}	
+	80% {right: 70%; transform: rotate(300deg);}
+	100% {right: 85%; transform: rotate(360deg);}		
+}
