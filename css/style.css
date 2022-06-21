@@ -1,5 +1,13 @@
+body{
+	background-image: url("../img/forest7.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 main{
 	margin: 66px 40px 10px 150px;
+	background-color: pink;
 }
 /* header*/
 .header{
@@ -38,6 +46,23 @@ main{
 }
 
 /* sectio 1*/
+.containter{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: purple;
+
+}
+.div-sect1-fix{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}	
+}
+.div-fix{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 .pos-1{
 	position: relative;
 	z-index: 10;
@@ -52,17 +77,17 @@ main{
 }
 .section-1{
 	display: block;
-	background-color: yellow;
+
 
 }
 .div-sect-1 {
 	background-color: lightgreen;
-	display: inline-block;
-	width: 30%;
 }
 .div-image{
-	width: 100%;
-	min-width: 100px;
+	width: 350px;
+	height: 250px;
+	object-fit: cover;
+	
 }
 .image-title{
 	color: white;
@@ -79,34 +104,46 @@ main{
 	display: inline-block;
 
 }
-.div-middle{
+.mini-text::before{
+	content: '\2615';
+	margin-left: 25px;
+	margin-right: 10px;
+}
+.image-descrip{
+	width: 280px;
+	margin: 0 auto;
+}
+/*.div-middle{
 	margin-right: 4%;
 	margin-left: 4%;
-}
+}*/
 /* sectio 2*/
 .section-2{
 	display: block;
 }
+.div-sect2-flex{
+	display: flex;
+	justify-content: space-between;
+
+}
 .div-left{
 	background-color: lightgreen;
-	display: inline-block;
-	width: 64%;
+	width: 850px;
 
 }
 .div-right{
 	background-color: lightblue;
-	display: inline-block;
-	width: 30%;
-	margin-left: 4%;
+	width: 370px;
+	margin: 0 auto;
 }
 .image-left{
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 
 .image-right{
 	width: 100%;
-	margin-bottom: 36%;
+	margin-bottom: 150px;
 }
 
 
